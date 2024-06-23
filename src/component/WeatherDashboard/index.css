@@ -1,0 +1,87 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main-container{
+    background-image: url('https://img.freepik.com/free-vector/rainfall-drops-black-background_1017-33594.jpg?t=st=1719054108~exp=1719057708~hmac=269ec930fcc1b3c4a875067cd008d126fb731939d17a535e1f06c1c5286619ea&w=826');
+  height: 100vh;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.header{
+    color: #ffffff;
+}
+
+
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.card{
+
+    background-image: linear-gradient(to bottom, rgb(255, 166, 0)
+    ,rgb(255, 8, 0) , rgb(255, 115, 0));
+    height: 300px;
+    width: 500px;
+    border-radius: 7px;
+
+}
+.text{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px;
+
+}
+
+.button{
+    color: #000000;
+    background-color: rgb(128, 212, 44);
+    height: 32px;
+    width: 130px;
+    border-radius: 6px;
+    border-width: 0px;
+    margin: 10px;
+}
+.input{
+    padding: 8px;
+    width: 200px;
+    border-radius: 7px;
+    border: 1px solid #000000;
+}
+.form-container{
+    padding-top: 40px;
+    
+}
+
+.selector{
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+.chart-container{
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 270px;
+    width: 400px;
+    margin:10px ;
+    background-color: #ffffff;
+}
+.chart-container h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+} 
