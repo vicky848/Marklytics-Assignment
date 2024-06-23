@@ -1,3 +1,54 @@
+Weather Dashboard Application
+
+This project is a simple Weather Dashboard application built using React. It allows users to enter a city name, fetch real-time weather data using the OpenWeatherMap API, and display the weather information along with interactive charts (Bar Chart and Pie Chart) based on the temperature and humidity data.
+
+Features
+Search by City: Enter a city name to fetch weather data.
+Dynamic Chart Switching: Toggle between Bar Chart and Pie Chart to visualize temperature and humidity data.
+Error Handling: Displays error messages if there's an issue fetching weather data.
+Responsive Design: The application is designed to be responsive and works well on different screen sizes.
+Technologies Used
+React
+Axios for API requests
+React ApexCharts for chart visualization
+CSS for styling
+How to Use
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/weather-dashboard.git
+Install dependencies:
+
+bash
+Copy code
+cd weather-dashboard
+npm install
+Obtain an API key from OpenWeatherMap and replace apiKey in WeatherDashboard.js file with your API key.
+
+Start the application:
+
+sql
+Copy code
+npm start
+Open http://localhost:3000 to view it in the browser.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
